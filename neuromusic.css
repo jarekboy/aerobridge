@@ -269,10 +269,10 @@ footer {
   text-align: center;
 }
 footer a {
-  color: #dfdfdf;
+  color: #fff;
 }
 footer a:hover {
-  color: #fff;
+  color: #dfdfdf;
 }
 @media (max-width: 767px) {
   .content {
