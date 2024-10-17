@@ -23,7 +23,7 @@ body {
 
 /* Retina support */
 @media only screen and (-webkit-min-device-pixel-ratio: 2), 
-       only screen and (min-resolution: 192dpi) {
+       only screen and (min-resolution: 72dpi) {
     .logo {
         content: url('logo@2x.png'); /* Use high-resolution image */
         width: auto; /* Maintain aspect ratio */
