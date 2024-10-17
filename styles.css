@@ -25,8 +25,8 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 2), 
        only screen and (min-resolution: 192dpi) {
     .logo {
-        width: 200px; /* Adjust width for retina */
+        content: url('logo@2x.png'); /* Use high-resolution image */
+        width: auto; /* Maintain aspect ratio */
         height: auto; /* Maintain aspect ratio */
-        content: url('logo@2x.svg'); /* Use a high-resolution SVG if available */
     }
 }
