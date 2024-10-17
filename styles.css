@@ -1,0 +1,31 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(15, 15, 15, 1); /* #0f0f0fff */
+}
+
+.container {
+    text-align: center;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Retina support */
+@media only screen and (min-resolution: 192dpi) {
+    .logo {
+        content: url('logo@2x.png'); /* Use a high-resolution image */
+        width: auto; /* Adjust width if necessary */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
