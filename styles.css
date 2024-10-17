@@ -27,5 +27,6 @@ body {
     .logo {
         width: 200px; /* Adjust width for retina */
         height: auto; /* Maintain aspect ratio */
+        content: url('logo@2x.svg'); /* Use a high-resolution SVG if available */
     }
 }
