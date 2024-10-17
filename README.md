@@ -1,1 +1,1 @@
-# neuromusic-web
+# minerva-web
