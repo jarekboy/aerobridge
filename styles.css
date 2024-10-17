@@ -22,10 +22,10 @@ body {
 }
 
 /* Retina support */
-@media only screen and (min-resolution: 192dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 2), 
+       only screen and (min-resolution: 192dpi) {
     .logo {
-        content: url('logo@2x.png'); /* Use a high-resolution image */
-        width: auto; /* Adjust width if necessary */
+        width: 200px; /* Adjust width for retina */
         height: auto; /* Maintain aspect ratio */
     }
 }
