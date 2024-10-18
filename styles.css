@@ -17,13 +17,13 @@ body {
 }
 
 .logo {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
 }
 
 /* Retina support */
 @media only screen and (-webkit-min-device-pixel-ratio: 2), 
-       only screen and (min-resolution: 72dpi) {
+       only screen and (min-resolution: 144dpi) {
     .logo {
         content: url('logo@2x.png'); /* Use high-resolution image */
         width: auto; /* Maintain aspect ratio */
